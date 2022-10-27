@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pic6"
+    android:layout_marginTop="-90dp"
+    tools:context=".SignupActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/SignupToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:background="#000"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <ImageView
+        android:layout_width="270dp"
+        android:layout_height="163dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/photo" />
+
+    <EditText
+        android:id="@+id/SignupEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email.."
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/inputs"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="10dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/SignupPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter password..."
+        android:layout_margin="20dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:inputType="textPassword"
+        android:background="@drawable/inputs"
+        android:drawableStart="@drawable/ic_lock"
+        android:drawablePadding="10dp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/SignupButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:textAllCaps="false"
+        android:layout_marginBottom="155dp"
+        android:layout_marginRight="105dp"
+        android:layout_marginLeft="105dp"
+        android:background="@drawable/custom_dialog"
+        android:textColor="#000"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/SignupPageQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="-50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="You have an account? Sign in"
+        android:textColor="#fff"
+        android:textSize="15sp" />
+
+</LinearLayout>

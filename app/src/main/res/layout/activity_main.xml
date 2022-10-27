@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pic10"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="355dp"
+        android:layout_height="434dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="1dp"
+        android:orientation="vertical"
+        android:src="@drawable/photo"
+        tools:context=".MainActivity" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="350dp"
+        android:layout_height="970dp"
+        android:text="A RECIPE IS A STORY THAT ENDS WITH A GOOD MEAL"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</LinearLayout>
